@@ -21,4 +21,7 @@ public class Role {
     @Column(unique = true, nullable = false)
     private String name; // ROLE_USER, ROLE_ADMIN
 
+    public Role(String name) {
+        this.name = name;
+    }
 }
