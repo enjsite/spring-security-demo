@@ -10,7 +10,7 @@ import ru.enjy.spring_security_demo.repository.RoleRepository;
 import ru.enjy.spring_security_demo.repository.UserRepository;
 
 @Component
-@Profile("dev")
+@Profile("dev") //Bash: SPRING_PROFILES_ACTIVE=dev
 public class DataInitializer implements CommandLineRunner {
 
     private final UserRepository userRepository;

@@ -1,4 +1,4 @@
-package ru.enjy.spring_security_demo.service;
+package ru.enjy.spring_security_demo.security;
 
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
